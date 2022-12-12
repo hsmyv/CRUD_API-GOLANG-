@@ -97,7 +97,7 @@ func updateMovie(w http.ResponseWriter, r *http.Request){
 
 //
 func main(){
-	//mux is the package that we use for CRUD -> mux es la paquet que usamos para CLEA
+	//mux is the package that we use for CRUD -> mux es el paquete que usamos para CLEA
 	r := mux.NewRouter()
 
 	//We add movies to movies array  //anadimos las peliculas a los series de pelicula
